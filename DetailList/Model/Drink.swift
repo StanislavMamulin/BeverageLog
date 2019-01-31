@@ -21,11 +21,7 @@ struct Drink {
 	// Firebase section
 	let ref: DatabaseReference?
 	let key: String
-	// ----------
-	
-//    var photo: UIImage {
-//        return UIImage(named: self.name.rawValue)!
-//    }
+
     
     init(type: DrinkType, impression: String, sugar: Double, timestamp: Date, volume: Double, sugarAdded: Bool = false, key: String = "") {
         self.type = type
@@ -51,6 +47,7 @@ struct Drink {
         self.key = ""
     }
 	
+	// Загрузка из Firebase-снапшотов
 	init?(snapshot: DataSnapshot) {
 		guard
 			let value = snapshot.value as? [String: AnyObject],
@@ -75,6 +72,7 @@ struct Drink {
 		self.key = snapshot.key
 	}
 	
+	// Подготовка для сохранения в Firebase-совместимом формате
 	func toAnyObject() -> Any {
         let timestampString = Constants.dateFormatter.string(from: timestamp)
         
@@ -116,7 +114,7 @@ enum DrinkType: String, CaseIterable {
     var sugarCoefficient: Double {
         switch self{
         case .Juice:
-            return 0.2
+            return 0.1
         default:
             return 0
         }

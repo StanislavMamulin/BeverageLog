@@ -27,4 +27,12 @@ struct Constants {
             return df
         }
     }
+	
+	enum Segues: String {
+        case AddNewDrink, ShowDetail, save
+    }
+	
+    enum Identifiers: String {
+		case drinkCell
+	}
 }

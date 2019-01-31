@@ -99,7 +99,7 @@
                                     <outlet property="name" destination="R1U-nJ-gCL" id="fS8-1o-Wsi"/>
                                     <outlet property="sugar" destination="5Pg-4k-IF7" id="zxe-dF-UXk"/>
                                     <outlet property="volume" destination="8EM-hV-TBg" id="9Xr-Cw-aBm"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetailSegue" id="jhw-1R-lba"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="jhw-1R-lba"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -112,7 +112,7 @@
                         <barButtonItem key="backBarButtonItem" title="Cancel" id="Q7k-9Y-J3Z"/>
                         <barButtonItem key="rightBarButtonItem" title="+" systemItem="add" id="kbU-a3-Kkv">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" identifier="AddNewDrinkSegue" id="Xv1-fa-OD0"/>
+                                <segue destination="BYZ-38-t0r" kind="show" identifier="AddNewDrink" id="Xv1-fa-OD0"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -315,7 +315,7 @@
                     <navigationItem key="navigationItem" title="Добавить" id="seO-iX-1pR">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="XBG-za-Ng3">
                             <connections>
-                                <segue destination="wzc-qu-uYo" kind="unwind" identifier="saveSegue" unwindAction="unwindFromDetailWithSegue:" id="9AA-uY-46m"/>
+                                <segue destination="wzc-qu-uYo" kind="unwind" identifier="save" unwindAction="unwindFromDetailWithSegue:" id="9AA-uY-46m"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -364,6 +364,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="jhw-1R-lba"/>
+        <segue reference="Xv1-fa-OD0"/>
     </inferredMetricsTieBreakers>
 </document>
