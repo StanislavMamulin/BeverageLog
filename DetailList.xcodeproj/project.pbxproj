@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5414A6C22203641600BABA65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5414A6C12203641500BABA65 /* GoogleService-Info.plist */; };
 		545AA3B721F6C09300D473BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545AA3B621F6C09300D473BF /* AppDelegate.swift */; };
 		545AA3BC21F6C09300D473BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545AA3BA21F6C09300D473BF /* Main.storyboard */; };
 		545AA3BE21F6C09E00D473BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545AA3BD21F6C09E00D473BF /* Assets.xcassets */; };
@@ -15,7 +16,6 @@
 		545AA3CF21F95A7100D473BF /* DrinkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545AA3CE21F95A7100D473BF /* DrinkDetailViewController.swift */; };
 		545AA3D121F95D2F00D473BF /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545AA3D021F95D2F00D473BF /* Drink.swift */; };
 		545AA3D521F96DA400D473BF /* DrinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545AA3D421F96DA400D473BF /* DrinkCell.swift */; };
-		54EC817B21FEB8410010DABA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54EC817A21FEB8400010DABA /* GoogleService-Info.plist */; };
 		54EC81C1220145740010DABA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC81C0220145740010DABA /* Constants.swift */; };
 		54F062E02202A25B00DFA67C /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F062DF2202A25B00DFA67C /* UIView+Animation.swift */; };
 		D577BD17149E3E4E92BFB04C /* Pods_DetailList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A4A6DB15A823F4B54EF7D2 /* Pods_DetailList.framework */; };
@@ -23,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		14A4A6DB15A823F4B54EF7D2 /* Pods_DetailList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DetailList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5414A6C12203641500BABA65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		545AA3B321F6C09300D473BF /* DetailList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetailList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		545AA3B621F6C09300D473BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		545AA3BB21F6C09300D473BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		545AA3CE21F95A7100D473BF /* DrinkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailViewController.swift; sourceTree = "<group>"; };
 		545AA3D021F95D2F00D473BF /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		545AA3D421F96DA400D473BF /* DrinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCell.swift; sourceTree = "<group>"; };
-		54EC817A21FEB8400010DABA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		54EC81C0220145740010DABA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		54F062DF2202A25B00DFA67C /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
 		8A6A4E9EFF05FCEE091982C1 /* Pods-DetailList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DetailList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DetailList/Pods-DetailList.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,8 +82,8 @@
 		545AA3B521F6C09300D473BF /* DetailList */ = {
 			isa = PBXGroup;
 			children = (
+				5414A6C12203641500BABA65 /* GoogleService-Info.plist */,
 				545AA3C221F6C09E00D473BF /* Info.plist */,
-				54EC817A21FEB8400010DABA /* GoogleService-Info.plist */,
 				545AA3BD21F6C09E00D473BF /* Assets.xcassets */,
 				545AA3B621F6C09300D473BF /* AppDelegate.swift */,
 				545AA3BF21F6C09E00D473BF /* LaunchScreen.storyboard */,
@@ -200,7 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				545AA3C121F6C09E00D473BF /* LaunchScreen.storyboard in Resources */,
-				54EC817B21FEB8410010DABA /* GoogleService-Info.plist in Resources */,
+				5414A6C22203641600BABA65 /* GoogleService-Info.plist in Resources */,
 				545AA3BE21F6C09E00D473BF /* Assets.xcassets in Resources */,
 				545AA3BC21F6C09300D473BF /* Main.storyboard in Resources */,
 			);
